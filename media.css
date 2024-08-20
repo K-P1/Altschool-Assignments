@@ -1,0 +1,85 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Header Navigation */
+header {
+    background-color: #2c3e50;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #ecf0f1;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.media-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+}
+
+.media-content picture img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+}
+
+audio, video {
+    width: 100%;
+    max-width: 600px;
+    outline: none;
+    margin-top: 20px;
+}
+
+/* Custom Styles for Audio/Video */
+audio::-webkit-media-controls-panel {
+    background-color: #8496a9;
+    border-radius: 8px;
+}
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-timeline,
+audio::-webkit-media-controls-volume-slider,
+video::-webkit-media-controls-play-button,
+video::-webkit-media-controls-timeline,
+video::-webkit-media-controls-volume-slider {
+    color: #ecf0f1;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+    .media-content {
+        grid-template-columns: 1fr 1fr;
+    }
+}

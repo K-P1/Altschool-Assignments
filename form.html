@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="active">About Me</a>
+            <a href="media.html" class="active">Media</a>
+            <a href="table.html" class="active">Table</a>
+        </nav> 
+    </header>
+
+    <main id="form">
+        <h1>Alt___<br> School</h1>
+        <p id="paragraphOne"><strong>Already an AltSchooler?</strong> <a href="" id="linkOne">Sign In!</a></p>
+        <h2>Signup</h2>
+        <p id="paragraphTwo">Take the next steps to apply at AltSchool Africa</p>
+        <form>
+            <div class="form-group">
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname" placeholder="Enter first name" required>
+            </div>
+            <div class="form-group">
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname" placeholder="Enter last name" required>
+            </div>
+        
+            <div class="form-group">
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="">Select gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="Enter email address" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="08154387000" required>
+            </div>
+
+            <div class="form-group">
+                <label for="country">Country:</label>
+                <select name="country" id="country" required>
+                    <option disabled selected>Select country</option>
+                    <!-- Add more options as needed -->
+                    <option value="nigeria">Nigeria</option>
+                    <option value="ghana">Ghana</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="state">State/City of Residence:</label>
+                <input type="text" id="state" name="state" placeholder="Enter your state of residence" required>
+            </div>
+
+            <div class="form-group-full">
+                <label id="how" for="how">How did you hear about us?</label>
+                <select id="how" name="how" required>
+                    <option value="">Select channel</option>
+                    <option value="twitter">Twitter</option>
+                    <option value="facebook">Facebook</option>
+                    <option value="linkedin">LinkedIn</option>
+                    <!-- Add more options as needed -->
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter password" required>
+            </div>
+            <div class="form-group">
+                <label for="confirm">Confirm Password:</label>
+                <input type="password" id="confirm" name="confirm" placeholder="Confirm password" required>
+            </div>
+
+            <p id="paragraphThree">By clicking continue, I agree to <a href="">Terms of Use</a> and acknowledge that I have read the <a href="">Privacy Policy</a>.</p>
+            
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+</body>
+</html>
