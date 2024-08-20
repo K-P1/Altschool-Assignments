@@ -91,8 +91,10 @@ form select {
     border: none;
     font-size: 13px;
     background-color: rgb(248, 248, 248);
-    color: rgb(200, 200, 200);
     height: 50px;
+}
+form select {
+    color: rgb(200, 200, 200)
 }
 
 form input[type="submit"] {
@@ -109,6 +111,11 @@ form input[type="submit"] {
 
 form input[type="date"] {
     width: 100%;
+    color: rgb(200, 200, 200)
+}
+form input[type="date"]:valid {
+    width: 100%;
+    color: rgb(0, 0, 0)
 }
 
 form input[type="submit"]:hover {
@@ -153,8 +160,10 @@ input[type="password"]::placeholder {
 }
 
 input:focus, 
-select:focus {
+select:focus,
+select:valid {
     border: 0.5px solid #007bff;
     outline: none;
     border-radius: 8px;
+    color: black;
 }
