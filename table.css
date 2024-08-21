@@ -42,7 +42,7 @@ table {
 }
 
 thead th {
-    background-color: #89ccfd;
+    background-color: #9eb0bc;
     color: rgb(8, 8, 8);
     padding: 10px;
     text-align: left;
@@ -53,7 +53,7 @@ thead th {
 tbody td {
     padding: 10px;
     border-bottom: 1px solid #ddd;
-    background-color: hsl(207, 79%, 92%);
+    background-color: hsl(210, 14%, 91%);
 }
 
 tbody td:hover {
@@ -64,7 +64,7 @@ tbody td:hover {
 tbody tr:nth-child(1) td:first-child,
 tbody tr:nth-child(6) td:first-child,
 tbody tr:nth-child(9) td:first-child {
-    background-color: #c8e7fe;
+    background-color: #ced6dd;
     font-weight: bold;
     color: #0a0a0a;
 }
