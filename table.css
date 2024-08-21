@@ -42,28 +42,30 @@ table {
 }
 
 thead th {
-    background-color: #007bff;
+    background-color: #6baaee;
     color: white;
     padding: 10px;
     text-align: left;
+    font-weight: bold;
 }
 
 tbody td {
     padding: 10px;
     border-bottom: 1px solid #ddd;
-    background-color: #68b7f3;
+    background-color: #a4d3f8;
 }
 
 tbody td:hover {
-    background-color: #90ccfa;
+    background-color: #dbefff;
 }
 
 
 tbody tr:nth-child(1) td:first-child,
 tbody tr:nth-child(6) td:first-child,
 tbody tr:nth-child(9) td:first-child {
-    background-color: #5db2f3;
+    background-color: #8bc5f1;
     font-weight: bold;
+    color: #f9f9f9;
 }
 
 
