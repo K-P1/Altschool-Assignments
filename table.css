@@ -42,30 +42,31 @@ table {
 }
 
 thead th {
-    background-color: #6baaee;
-    color: white;
+    background-color: #89ccfd;
+    color: rgb(8, 8, 8);
     padding: 10px;
     text-align: left;
     font-weight: bold;
+    font-size: larger;
 }
 
 tbody td {
     padding: 10px;
     border-bottom: 1px solid #ddd;
-    background-color: #a4d3f8;
+    background-color: hsl(207, 79%, 92%);
 }
 
 tbody td:hover {
-    background-color: #dbefff;
+    background-color: #fff;
 }
 
 
 tbody tr:nth-child(1) td:first-child,
 tbody tr:nth-child(6) td:first-child,
 tbody tr:nth-child(9) td:first-child {
-    background-color: #8bc5f1;
+    background-color: #c8e7fe;
     font-weight: bold;
-    color: #f9f9f9;
+    color: #0a0a0a;
 }
 
 
