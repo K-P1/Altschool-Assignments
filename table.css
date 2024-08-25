@@ -8,7 +8,7 @@
 
 /* Header Navigation */
 header {
-    background-color: #031d5a;
+    background-color: #6a6ff5;
     padding: 10px 0;
     text-align: center;
 }
@@ -30,6 +30,10 @@ main {
     background-color: #f9f9f9;
 }
 
+h1 {
+    text-align: center;
+    margin: auto;
+}
 /* Table Styling */
 .table-container {
     overflow-x: auto;
@@ -42,18 +46,18 @@ table {
 }
 
 thead th {
-    background-color: #9eb0bc;
+    background-color: #8b8ef6;
     color: rgb(8, 8, 8);
     padding: 10px;
     text-align: left;
     font-weight: bold;
-    font-size: larger;
+    font-size: 16px;
 }
 
 tbody td {
     padding: 10px;
     border-bottom: 1px solid #ddd;
-    background-color: hsl(210, 14%, 91%);
+    background-color: #babcf3;
 }
 
 tbody td:hover {
@@ -64,8 +68,9 @@ tbody td:hover {
 tbody tr:nth-child(1) td:first-child,
 tbody tr:nth-child(6) td:first-child,
 tbody tr:nth-child(9) td:first-child {
-    background-color: #ced6dd;
+    background-color: #afb1f8;
     font-weight: bold;
+    font-size: larger;
     color: #0a0a0a;
 }
 
