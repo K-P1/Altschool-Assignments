@@ -46,6 +46,10 @@ nav a:hover {
     height: 100%;
     width: 45%;
     position: fixed;
+    overflow:hidden;
+}
+.left-side:hover {
+    overflow-y: auto;
 }
 
 .alt_school {
