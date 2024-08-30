@@ -42,23 +42,26 @@ nav a:hover {
     flex: 1;
     display: flex;
     flex-direction: column;
-    padding-top: 100px;
     text-align: center;
     height: 100%;
     width: 45%;
     position: fixed;
 }
 
-.left-side img {
-    margin: auto;
-    max-width: 100%;
-    max-height: 70%;
+.alt_school {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.logo {
+    display: inline-block;
+    width: 15px;
+    margin: 10px;
 }
 
 #wordings {
     font-size: 24px;
     color: #333;
-    padding: 20px;
     font-weight: bold;
 }
 
@@ -70,6 +73,7 @@ nav a:hover {
     font-size: 10px;
     font-weight: bolder;
     color: black;
+    margin-bottom: auto;
 }
 
 /* Right Side */

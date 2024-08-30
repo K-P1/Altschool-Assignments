@@ -35,10 +35,20 @@ main {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+p {
+    font-size: large;
+    text-align: left;
+}
+
 h1 {
+    text-align: left;
     margin-bottom: 20px;
     font-size: 24px;
     color: #000000;
+}
+
+h2 {
+    margin-top: 50px;
 }
 
 .media-content {
@@ -51,15 +61,14 @@ h1 {
 
 .media-content picture img {
     width: 100%;
-    max-width: 500px;
+    max-width: 400px;
     border-radius: 8px;
 }
 
 audio, video {
     width: 100%;
-    max-width: 600px;
+    max-width: 400px;
     outline: none;
-    margin-top: 20px;
 }
 
 /* Custom Styles for Audio/Video */

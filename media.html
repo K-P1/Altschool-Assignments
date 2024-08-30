@@ -16,9 +16,11 @@
     </header>
     <main>
         <h1>My Media Page</h1>
+        <p>A responsive media page that changes the displayed image depending on your screen size. Along with a masterpeice audio and a claming video</p>
         
         <section class="media-content">
             <div id="one">
+                <h2>Image</h2>
                 <picture>
                     <source srcset="./media/pic2.jpg" media="(min-width: 1024px)">
                     <source srcset="./media/pic5.jpg" media="(min-width: 769px)">
@@ -28,11 +30,13 @@
             </div>
             
             <div id="two">
+                <h2>Audio</h2>
                 <audio controls>
                     <source src="./media/audio_file.mp3" type="audio/mpeg">
                     Your browser does not support the audio element.
                 </audio>
                 
+                <h2>Video</h2>
                 <video controls>
                     <source src="./media/video_file.mp4" type="video/mp4">
                     Your browser does not support the video tag.
